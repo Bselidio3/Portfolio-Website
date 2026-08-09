@@ -3,7 +3,7 @@
 ## Student Information
 
 **Name:** Bea Bianca Selidio  
-**Course and Section:** BS Information Technology - BSIT 3A
+**Course and Section:** BS Information Technology - BSIT 3B
 
 ---
 
