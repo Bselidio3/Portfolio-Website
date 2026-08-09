@@ -1,16 +1,17 @@
- Personal Website
+# Personal Website
 
- Student Information
+## Student Information
 
-Name: Bea Bianca Selidio  
-Course and Section: BS Information Technology - 3rd Year  
+**Name:** Bea Bianca Selidio  
+**Course and Section:** BS Information Technology - BSIT 3A
 
+---
 
- Project Description
+## Project Description
 
 This project is a simple personal website created as part of our
-HTML and CSS activity. The website introduces myself, presents my
-educational background, skills, hobbies and interests, projects,
+HTML and CSS activity. The website introduces myself and presents
+my educational background, skills, hobbies and interests, projects,
 contact information, and career goals.
 
 The website was designed to provide a simple and organized way to
@@ -19,7 +20,7 @@ student.
 
 ---
 
- Features
+## Features
 
 - Personal introduction
 - Profile picture
@@ -33,34 +34,48 @@ student.
 - Responsive design for different screen sizes
 
 ---
-# Technologies Used
 
-- HTML
-- CSS
+## Technologies Used
+
+- HTML5
+- CSS3
 - Google Fonts
 - GitHub
 - GitHub Pages
 
 ---
 
- Projects
+## Projects
 
-# Lost and Found Website
+### Lost and Found Website
 
 A school-based Lost and Found website designed to help students
 report lost items and find belongings that have been recovered.
 
 **Role:** Frontend Developer
 
-# Rent a Van Website
+### Rent a Van Website
 
 A vehicle rental website where users can view available vehicles
 and submit rental bookings.
 
 **Technologies:** HTML, CSS, JavaScript, PHP, and MySQL
 
+---
 
-# Author
+## Live Website
+
+[View My Personal Website](https://Bselidio3.github.io/Portfolio-Website/)
+
+---
+
+## GitHub Repository
+
+[View GitHub Repository](https://github.com/Bselidio3/Portfolio-Website)
+
+---
+
+## Author
 
 **Bea Bianca Selidio**
 
