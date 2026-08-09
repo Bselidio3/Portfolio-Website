@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background: #f5f7fb;
+    color: #333;
+}
+
+
+/* Navigation */
+
+nav {
+    background: #1e3a8a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+
+.logo {
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+nav ul li {
+    margin-left: 25px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+    min-height: 600px;
+}
+
+
+.hero-text {
+    max-width: 550px;
+}
+
+
+.hero h1 {
+    font-size: 50px;
+}
+
+
+.hero span {
+    color: #2563eb;
+}
+
+
+.hero h3 {
+    color: #555;
+    margin: 10px 0;
+}
+
+
+.hero p {
+    margin: 20px 0;
+    line-height: 1.7;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+
+/* Profile Image */
+
+.hero-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #2563eb;
+}
+
+
+/* Sections */
+
+section {
+    padding: 70px 10%;
+}
+
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+
+/* Cards */
+
+.card {
+    background: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    line-height: 1.7;
+}
+
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 8px;
+}
+
+
+/* Skills */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.skill {
+    background: #2563eb;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+
+.skill:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+}
+
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.project {
+    width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    transition: .3s;
+    line-height: 1.6;
+}
+
+
+.project h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+
+.project:hover {
+    transform: translateY(-8px);
+}
+
+
+/* Hobbies */
+
+.interest-list {
+    list-style: none;
+}
+
+
+.interest-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+
+.interest-list li:last-child {
+    border-bottom: none;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+}
+
+
+#contact .card p {
+    margin: 10px 0;
+}
+
+
+/* Footer */
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px 5%;
+    }
+
+
+    nav ul {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 60px 5%;
+    }
+
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+
+    .hero-image {
+        margin-bottom: 30px;
+    }
+
+
+    .hero-image img {
+        width: 230px;
+        height: 230px;
+    }
+
+
+    section {
+        padding: 50px 5%;
+    }
+
+
+    .project {
+        width: 100%;
+        max-width: 400px;
+    }
+
+}
