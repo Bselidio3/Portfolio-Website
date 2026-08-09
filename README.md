@@ -65,7 +65,7 @@ and submit rental bookings.
 
 ## Live Website
 
-[View My Personal Website](https://bselidio3.github.io/Portfolio-Website/)
+[View My Personal Website](https://github.com/Bselidio3/Portfolio-Website)
 
 ---
 
